@@ -7,7 +7,7 @@
 ]]
 
 local success, Rayfield = pcall(function()
-    return loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+    return loadstring(game:HttpGet('https://raw.githubusercontent.com/sdwird/rayfieldplus/refs/heads/main/Rayfield-main/source.lua'))()
 end)
 
 if not success or not Rayfield then
